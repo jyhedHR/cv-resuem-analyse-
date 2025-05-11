@@ -5,7 +5,7 @@ import os
 app = Flask(__name__)
 
 # Load Spacy model
-nlp = spacy.load("en_core_web_trf")
+nlp = spacy.load("en_core_web_sm")
 
 @app.route('/analyze', methods=['POST'])
 def analyze():
