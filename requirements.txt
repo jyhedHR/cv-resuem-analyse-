@@ -1,0 +1,4 @@
+flask
+spacy
+torch
+transformers
